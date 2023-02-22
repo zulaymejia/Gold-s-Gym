@@ -1,0 +1,70 @@
+.card:hover {
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+	-webkit-transform: translateY(1px);
+	-ms-transform: translateY(1px);
+	-o-transform: translateY(1px);
+	transform: translateY(1px);
+    cursor: pointer;
+    width:200%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
+    font-size: 16px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left:20px ;
+    margin-right: 20px;
+    border-radius: 50px;
+    transition: all 0.25s ease-in;
+}
+.imagenes{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 40vh;
+}
+.titulo{
+    color: rgba(9, 116, 53, 0.911);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px
+}
+.card-title{
+    color: rgba(9, 116, 53, 0.911);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+}
+.card-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgba(128, 128, 128, 0.911);
+    margin-top: 40px;
+    margin-left:20px ;
+    margin-right: 20px;}
+.enlace{  color: rgba(9, 116, 53, 0.911);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    font-size:14px;  
+    }
+ .containerplans{
+    background-repeat: no-repeat;
+    align-items: center;
+    background-image: url("../../images/fondoo.jpg");}

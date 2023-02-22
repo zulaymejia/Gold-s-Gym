@@ -1,0 +1,30 @@
+*{
+    margin: 0%;
+}
+.home-body {   
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-image: url("../../images/fondoo.jpg"); 
+}
+.parrafos{
+    width: 1000%;
+    height: 82vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 100px;
+    font-size: 16px;
+    color: rgba(128, 128, 128, 0.911);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left:20px ;
+    margin-right: 20px;
+}
+.titulos{
+    color: rgba(9, 116, 53, 0.911);
+    margin-left: 20px;
+}
